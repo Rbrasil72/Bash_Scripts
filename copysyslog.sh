@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Diretorio + copia do ficheiro com a data do dia atual
+#Directory + copies the file with the current date
 cp /var/log/syslog "syslog_$(date '+"%d-%m-%Y"').log"
 
-#Mensagem apresentada na terminal ao utilizador
+#Message presented in the terminal to the user
 echo "File syslog_$(date '+"%d-%m-%Y"').log has been created!"
