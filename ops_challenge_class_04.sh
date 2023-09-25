@@ -37,7 +37,7 @@ hello_world()
     
 }
 
-#Function to print ping itself only 4 times
+#Function to ping itself only 4 times
 ping_myself ()
 {
     clear
