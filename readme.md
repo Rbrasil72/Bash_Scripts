@@ -1,3 +1,7 @@
+# ALL BASH SCRIPTS OPS CHALLENGES
+
+***
+
 # ops_challenge_class_02.sh
 this script copies the /var/log/syslog file to a new file with a filename (in this case syslog) that includes the current date, and then it notifies the user in the terminal that the new file has been created.
 
