@@ -92,7 +92,7 @@ clear
     # Loop
     for file in "${log_logs[@]}"; do
 
-        # Get the file size before compression
+        # Get and print the file size before compression
         file_size=$(du -sh "$file" | cut -f1)
         echo -ne "File size of \e[32m$file\e[0m before compression: \e[33m$file_size\e[0m"
         echo -ne "\n"
@@ -101,10 +101,8 @@ clear
         backup_file="$backup_dir/$(basename $file)-$timestamp.zip"
         tar -czf "$backup_file" "$file" 2>/dev/null
 
-        # Get the file size after compression
+        # Get and print the file size after compression
         compressed_size=$(du -h "$backup_file" | cut -f1)
-
-        # Print the file size before compression
         echo -ne "Backup created: \e[34m$backup_file\e[0m"
         echo -ne "\n"
         echo -ne "File size of compressed backup: \e[33m$compressed_size\e[0m"
