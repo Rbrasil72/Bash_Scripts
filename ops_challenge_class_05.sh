@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#MOST RUN SCRIPT AS ROOT TO WORK PROPERLY
+
 #     _________
 #    / ======= \
 #   / __________\
