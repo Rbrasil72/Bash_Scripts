@@ -12,4 +12,4 @@ This script allows you to change permissions for all files in a specified direct
 This script provides a simple text-based menu system that allows the user to select options and view corresponding information or actions.
 
 # ops_challenge_class_05.sh
-This script makes a backup of the syslog and wtmp logfiles in zip format into a directory called backup and cleans the originals
+This script makes a backup of the syslog and wtmp logfiles in zip format into a directory called backup and cleans the originals. (Must run as root.)
